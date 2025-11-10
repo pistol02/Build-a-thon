@@ -1,0 +1,51 @@
+{
+  "invoice_details": {
+    "invoice_number": "000001",
+    "invoice_date": "02 June, 2030",
+    "due_date": null,
+    "from_address": "Olivia Wilson\n123 Anywhere St., Any City\nhello@reallygreatsite.com",
+    "to_address": "Studio Shodwe\n123 Anywhere St., Any City\nhello@reallygreatsite.com",
+    "payment_terms": null
+  },
+  "items": [
+    {
+      "item_name": "Logo",
+      "quantity": "1",
+      "unit_price": "500",
+      "total_amount": "500"
+    },
+    {
+      "item_name": "Banner (2x6m)",
+      "quantity": "2",
+      "unit_price": "45",
+      "total_amount": "90"
+    },
+    {
+      "item_name": "Poster (1x2m)",
+      "quantity": "3",
+      "unit_price": "55",
+      "total_amount": "165"
+    }
+  ],
+  "summary": {
+    "subtotal": null,
+    "tax_amount": null,
+    "shipping_amount": null,
+    "invoice_total": "755"
+  },
+  "metadata": {
+    "processed_timestamp": "2024-10-24T01:51:02.006298",
+    "source_file": "test.jpg",
+    "item_count": 3
+  },
+  "analysis": {
+    "total_items": 3,
+    "total_quantity": 6.0,
+    "item_breakdown": [
+      "1 x Logo",
+      "2 x Banner (2x6m)",
+      "3 x Poster (1x2m)"
+    ],
+    "average_item_price": 200.0
+  }
+}
