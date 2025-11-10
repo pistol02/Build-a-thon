@@ -42,7 +42,7 @@ commit_messages = [
 def add_commit_on_specific_dates():
     # Define dates in various formats for flexibility
     dates_to_commit = [
-        {"year": 2025, "month": 11, "day": 10, "hour": 14, "minute": 12},
+        {"year": 2025, "month": 11, "day": 10, "hour": 15, "minute": 45},
     ]
     
     commit_dates = parse_dates(dates_to_commit)
