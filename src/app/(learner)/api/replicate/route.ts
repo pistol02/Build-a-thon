@@ -55,7 +55,6 @@ export async function GET(request: any) {
         const outputSchema = request.nextUrl.searchParams.get("outputSchema");
         const dataSources = request.nextUrl.searchParams.get("dataSources");
 
-
         console.log(changes, inputSchema, outputSchema, dataSources)
         var output: string = await run(promptMaker(changes, inputSchema, outputSchema, dataSources));
         var outputAsArray = output.split("\n");
